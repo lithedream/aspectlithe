@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-Java library for lightweight "aspect like" functionality
+Java framework for lightweight "aspect like" functionality
 
 ## Motivation
 
