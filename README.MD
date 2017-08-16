@@ -27,7 +27,7 @@ or you can return $jp and tell AspectLithe to continue with the original method.
 
 Instead of returning $jp, you can call somewhere $jp.continueAfter(), and at the end of the script the original method will be resumed.
 
-Please write me if you like my project, my email is lithedr3am@gmail.com
+Please write me if you like my project, my email is lithedr3am@gmail.com.
 I'm not good with documentation, but if you want to use this I will help you as best as I can.
 
 
