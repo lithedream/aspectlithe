@@ -1,15 +1,20 @@
-package lithe.aspect;
+package io.github.lithedream.aspectlithe;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
 import bsh.EvalError;
 import bsh.Interpreter;
 import bsh.TargetError;
-import lithe.aspect.inner.AspectException;
-import lithe.aspect.inner.AspectKey;
-import lithe.aspect.inner.AspectScript;
+import io.github.lithedream.aspectlithe.inner.AspectException;
+import io.github.lithedream.aspectlithe.inner.AspectKey;
+import io.github.lithedream.aspectlithe.inner.AspectScript;
 
 /**
  * Entry point of the AspectLithe library

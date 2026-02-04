@@ -1,10 +1,10 @@
-package lithe.aspect;
-
-import lithe.aspect.inner.AspectKey;
-import lithe.aspect.inner.AspectScript;
+package io.github.lithedream.aspectlithe;
 
 import java.util.Collection;
 import java.util.Map;
+
+import io.github.lithedream.aspectlithe.inner.AspectKey;
+import io.github.lithedream.aspectlithe.inner.AspectScript;
 
 /**
  * The interface that you need to implement to provide AspectLithe of a "configuration loader" object.

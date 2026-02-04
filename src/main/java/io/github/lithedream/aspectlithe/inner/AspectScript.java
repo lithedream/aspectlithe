@@ -1,4 +1,4 @@
-package lithe.aspect.inner;
+package io.github.lithedream.aspectlithe.inner;
 
 import java.io.Serializable;
 

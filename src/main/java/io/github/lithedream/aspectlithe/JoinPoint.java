@@ -1,11 +1,11 @@
-package lithe.aspect;
-
-import lithe.aspect.inner.AspectException;
+package io.github.lithedream.aspectlithe;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
+
+import io.github.lithedream.aspectlithe.inner.AspectException;
 
 /**
  * Defines a single join point, represented by a class name, method name, and sequence of classes of parameters

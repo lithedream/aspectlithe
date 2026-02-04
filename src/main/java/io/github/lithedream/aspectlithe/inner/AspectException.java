@@ -1,4 +1,4 @@
-package lithe.aspect.inner;
+package io.github.lithedream.aspectlithe.inner;
 
 /**
  * An exception caught during Aspect script execution
