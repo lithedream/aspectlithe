@@ -127,9 +127,11 @@ public final class MyAspectLoader implements AspectLoader {
                 "java.lang.String,java.lang.Long"
             ),
             new AspectScript(
-                "if (amount < 0L) return 0;'"\\n" +
-                ""'$jp.continueAfter();'"\\n" +
-                "return "'$jp;"
+                "if (amount < 0L) { "+
+                "     return 0;     "+
+                "} else {           "+
+                "     return $jp;   "+
+                "}";
             )
         );
     }
@@ -137,7 +139,7 @@ public final class MyAspectLoader implements AspectLoader {
     @Override
     public long getReloadIntervalMillis() {
         return 3600000; // the time between invocations that AspectLithe waits before reloading aspects
-	}
+    }
 
     @Override
     public boolean isEnabled() {
